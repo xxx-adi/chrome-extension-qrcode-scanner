@@ -2,8 +2,9 @@
   "name": "chrome-extension-qrcode-scanner",
   "version": "1.0.0",
   "description": "Take screenshot and scan for the QR code on current page",
-  "main": "scripts/background.js",
+  "main": "src/background.js",
   "scripts": {
+    "build": "npx webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/xxx-adi/chrome-extension-qrcode-scanner/issues"
   },
-  "homepage": "https://github.com/xxx-adi/chrome-extension-qrcode-scanner#readme"
+  "homepage": "https://github.com/xxx-adi/chrome-extension-qrcode-scanner#readme",
+  "dependencies": {
+    "@zxing/library": "^0.20.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
