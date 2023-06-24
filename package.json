@@ -1,0 +1,19 @@
+{
+  "name": "chrome-extension-qrcode-scanner",
+  "version": "1.0.0",
+  "description": "Take screenshot and scan for the QR code on current page",
+  "main": "scripts/background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxx-adi/chrome-extension-qrcode-scanner.git"
+  },
+  "author": "Adi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxx-adi/chrome-extension-qrcode-scanner/issues"
+  },
+  "homepage": "https://github.com/xxx-adi/chrome-extension-qrcode-scanner#readme"
+}
